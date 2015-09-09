@@ -1,7 +1,5 @@
 package next.race;
 
-import static org.junit.Assert.*;
-
 import java.util.Arrays;
 
 import org.junit.After;
@@ -15,7 +13,7 @@ public class RacingTest {
 
 	@Test
 	public void test() {
-		new Racing().run(10, Arrays.asList(new Car(), new Car(), new Car()));
+		new Racing().run(2, Arrays.asList(0, 0, 0, 0, 0, 0, 0));
 	}
 
 }
